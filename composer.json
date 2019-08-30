@@ -1,0 +1,29 @@
+{
+    "name": "jtelesforoantonio/laravel-contact-form",
+    "description": "Contact form for laravel",
+    "keywords": ["laravel", "contact", "form"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Telesforo Antonio",
+            "email": "jonyjony777@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JTelesforoAntonio\\LaravelContactForm\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JTelesforoAntonio\\LaravelContactForm\\ContactFormServiceProvider"
+            ]
+        }
+    }
+}
